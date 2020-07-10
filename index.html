@@ -3,37 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../assets/css/bootstrap-css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../assets/css/custom-css/main.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/custom-css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-        <div class="container">
-          <a class="navbar-brand" href="index.html"></a>
-          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            Menu
-            <i class="fas fa-bars"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="post.html">Sample Post</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
     
       <!-- Page Header -->
       <header class="container-fluid big-banner">
@@ -51,8 +26,8 @@
 
     <!-- second section -->
         <section class="page-section second-section">
-            <div class="container pb-4 mx-auto" style="height: 100%; width:900px ;">
-                <div class="row justify-content-between">
+            <div class="container pb-4 mx-auto" >
+                <div class="row justify-content-around">
                     <div class="col-lg-6 col-md-12 col-sm-12 ">
                         <div class="position-relative pink">
                             <img class="position-absolute" src="assets/img/red-sweater.png" alt="" style="height: 250px;">
@@ -73,28 +48,28 @@
     <!-- Third section -->
         
         <section class="page-section mt-5">
-            <div class="container mx-auto" style="height: 100%; width:900px ;">
+            <div class="container mx-auto" >
                 <p class="text-center" style="color: #EF6A6A; font-size: 25px; font-family: Montserrat;">Gallery</p>
                 <h5 class="text-center mb-5" style="font-family: Montserrat; color: #363636; font-size: 30px;">Explore Beauty</h5>
                 <div class="row ">
-                    <div class="col">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
                         <img src="assets/img/pink hair.png" alt="" style="width: 420px;height: 600px;">
                     </div>
-                    <div class="col">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
                         <img src="assets/img/blue-eyeliner.png" alt="" style="width: 420px;height: 300px;">
                         <img src="assets/img/lip-paint.png" alt="" style="width: 420px;height: 300px;">
                     </div>
                 </div>
                 <div class="row mt-3">
-                    <div class="col">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
                         <img src="assets/img/powder.png" alt="" style="width: 420px;height: 300px;">
                     </div>
-                    <div class="col">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
                         <img src="assets/img/lipstick.png" alt="" style="width: 420px;height: 300px;">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col text-center">
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center">
                       <button class="btn meet-btn mb-5" >See More</button>
                     </div>
                   </div>
@@ -104,24 +79,27 @@
 
     <!-- Third section -->
         <section class="page-section" style="background-color:#FFF7F7">
-            <div class="container mx-auto" style="height: 100%; width:900px ;">
-                <div class="row" style="height: 80%;" >
+            <div class="container mx-auto" >
+                <div class="row"  >
                     <div class="col-lg-6 col-md-12 col-sm-12 mt-5">
-                        <table class="table">
-                            <p style=" color:#363636;font-size: 30px;font-family: Montserrat; font-weight: 500;">Services & Prices</p>
-                            <tr>
-                                <th scope="col" class="service">Full Body Makeup</th>
-                                <th scope="col">$100</th>
-                            </tr>
-                            <tr>
-                                <th scope="col" class="service">Full Body Makeup</th>
-                                <th scope="col">$100</th>
-                            </tr>
-                            <tr>
-                                <th scope="col"class="service" >Full Body Makeup</th>
-                                <th scope="col">$100</th>
-                            </tr>
-                        </table>
+                        <div class="table-responsive-sm">
+                            <table class="table">
+                                <p style=" color:#363636;font-size: 30px;font-family: Montserrat; font-weight: 500;">Services & Prices</p>
+                                <tr>
+                                    <th scope="col" class="service">Full Body Makeup</th>
+                                    <th scope="col">$100</th>
+                                </tr>
+                                <tr>
+                                    <th scope="col" class="service">Full Body Makeup</th>
+                                    <th scope="col">$100</th>
+                                </tr>
+                                <tr>
+                                    <th scope="col"class="service" >Full Body Makeup</th>
+                                    <th scope="col">$100</th>
+                                </tr>
+                            </table>
+                        </div>
+                        
                         <div>
                             <button class="btn table-btn">See Listing</button>
                         </div>
@@ -135,15 +113,15 @@
         </section>
     
     <!-- fourth section -->
-        <section class="page-section pt-5" style="">
-            <div class="container mx-auto mb-5" style="height: 100%; width:800px ;">
+        <section class="page-section pt-5">
+            <div class="container mx-auto mb-5 ">
                 <p class="text-center" style="color: #EF6A6A; font-size: 25px; font-family: Montserrat;">Testimonials</p>
                 <h5 class="text-center mb-5" style="font-family: Montserrat; color: #363636; font-size: 30px;">What Happy Clients Say</h5>
-                <div class="row mini mx-auto " >
-                    <div class="col ">
-                        <img src="assets/img/girl.png" alt="" style="width: 350px;">
+                <div class="row mini mx-auto" >
+                    <div class="col-lg-6 col-md-12 col-sm-12 ">
+                        <img src="assets/img/girl.png" alt="" style="width: 400px;">
                     </div>
-                    <div class="col">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
                         <p class="testimonial">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
                             sed diam nonumy eirmod t nvidunt ut labore et dolore magna aliquyam erat, 
                             sed diam voluptua. At vero eos et a et justo duo dolores et ea rebum.
@@ -157,39 +135,37 @@
     
     <!-- fifth section -->
 
-        <section class="page-section" style="background-color: #EF6A6A;">
-            <div class="container" style="height: 100%; width:800px ;">
+        <section class="page-section py-5" style="background-color: #EF6A6A;">
+            <div class="container">
                
                 <div class="row">
-                    <div class="col">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
                         <p style="color:#FCFDFF; font-size: 30px;font-family: Montserrat;font-weight: normal;">Contact</p>
-                        <div>
+                        <div style="color: #ffffff;">
                             <i class="fas fa-circle fa-stack-2x"></i>
                             <p>Telephone </p>
                             <p>+1234 5678 9098</p>
                         </div>
-                        <div>
+                        <div style="color: #ffffff;">
                             <i class="fas fa-circle fa-stack-2x"></i>
                             <p>Mail </p>
                             <p>sleek@hng.com</p>
                         </div>
                         
                     </div>
-                    <div class="col contact-form">
-                        <div class="form-title">
+                    <div class="col-lg-6 col-md-12 col-sm-12 contact-form">
+                        <div class="form-title" style="color: #ffffff;">
                             <p>Feedbacks</p>
                         </div>
                         <div class="form-field">
-                            <input type="text" class="input-text">
-                            <label for="" class="label">Name</label>
+                             <input type="text" class="input-text" placeholder="Name">
+                            
                         </div>
                         <div class="form-field">
-                            <input type="text" class="input-text">
-                            <label for="" class="label">Email</label>
+                            <input type="text" class="input-text" placeholder="Email">
                         </div>
                         <div class="form-field">
-                            <input type="text" class="input-text">
-                            <label for="" class="label">Message</label>
+                            <input type="text" class="input-text" placeholder="Message">
                         </div>
                         <div class="form-field">
                             <input type="submit" class="submit-btn" value="send">
