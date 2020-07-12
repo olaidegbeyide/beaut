@@ -44,16 +44,15 @@ body {
     width: 300px;
 }
 .gallery-row {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
-   
 }
 .gallery-img {
-    width:420px ;
+    width:400px ;
     height:300px ;
 }
 .gallery-image {
-    width:420px ;
+    width:400px ;
     height: 600px;
 }
 .services {
@@ -89,7 +88,7 @@ body {
 }
 .play{
     top: 40%;
-    left: 45%;
+    left: 50%;
 }
 .mini {
     width: 80%;
@@ -228,25 +227,10 @@ body {
         width: 550px;
     }
 }                                                                    
-@media screen and (min-width: 1024px) and (max-width:1366px) {
+ @media all and (max-width: 1366px) and (min-width: 1024px) {
     .meet {
         width: 90%;
         margin: 0 auto;
     }
-    .gallery-row {
-        width: 90%;
-        margin: 0 auto;
-    }
-    .gallery-img {
-        width:400px ;
-        height:300px ;
-    }
-    .gallery-image {
-        width:400px ;
-        height: 600px;
-    }
-    .play{
-        top: 45%;
-        left: 55%;
-    }
+    
 }
