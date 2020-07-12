@@ -43,6 +43,18 @@ body {
 .meet-text {
     width: 300px;
 }
+.gallery-row {
+    width: 80%;
+    margin: 0 auto;
+}
+.gallery-img {
+    width:420px ;
+    height:300px ;
+}
+.gallery-image {
+    width:420px ;
+    height: 600px;
+}
 .services {
     width: 80%;
     margin: 0 auto;
@@ -123,6 +135,18 @@ body {
     }
     .meet-text {
         width: 240px;
+    }
+    .gallery-row {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .gallery-img {
+        width:250px ;
+        height:150px ;
+    }
+    .gallery-image {
+        width:250px ;
+        height: 300px;
     }
     .pink{
         width: 230px;
