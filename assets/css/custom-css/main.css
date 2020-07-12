@@ -87,6 +87,10 @@ body {
     width:380px ;
     height:280px ;
 }
+.play{
+    top: 40%;
+    left: 45%;
+}
 .mini {
     width: 80%;
     margin: 0 auto;
@@ -240,5 +244,9 @@ body {
     .gallery-image {
         width:400px ;
         height: 600px;
+    }
+    .play{
+        top: 45%;
+        left: 55%;
     }
 }
