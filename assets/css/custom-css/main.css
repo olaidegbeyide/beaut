@@ -137,16 +137,16 @@ body {
         width: 240px;
     }
     .gallery-row {
-        width: 300px;
+        width: 83%;
         margin: 0 auto;
     }
     .gallery-img {
-        width:250px ;
-        height:150px ;
+        width:100% ;
+        height:180px ;
     }
     .gallery-image {
-        width:250px ;
-        height: 300px;
+        width:100% ;
+        height: 350px;
     }
     .pink{
         width: 230px;
